@@ -1,3 +1,4 @@
+form {width:175px;margin:0,auto;text-align:center;}
 label {
   display: none;
 }
@@ -24,8 +25,71 @@ h2 {
   background: red;
 }
 
+.img-0 {
+  background-image: url("images/0-fool-thoth.png");
+}
+.img-1 {
+  background-image: url("images/1-magus-thoth.png");
+}
+.img-2 {
+  background-image: url("images/2-priestess-thoth.png");
+}
+.img-3 {
+  background-image: url("images/3-empress-thoth.png");
+}
+.img-4 {
+  background-image: url("images/4-emperor-thoth.png");
+}
+.img-5 {
+  background-image: url("images/5-hierophant-thoth.png");
+}
+.img-6 {
+  background-image: url("images/6-lovers-thoth.png");
+}
+.img-7 {
+  background-image: url("images/7-chariot-thoth.png");
+}
+.img-8 {
+  background-image: url("images/8-adjustment-thoth.png");
+}
+.img-9 {
+  background-image: url("images/9-hermit-thoth.png");
+}
+.img-10 {
+  background-image: url("images/10-fortune-thoth.png");
+}
 .img-11 {
   background-image: url("images/11-lust-thoth.png");
+}
+.img-12 {
+  background-image: url("images/12-hanged-man-thoth.png");
+}
+.img-13 {
+  background-image: url("images/13-death-thoth.png");
+}
+.img-14 {
+  background-image: url("images/14-art-thoth.png");
+}
+.img-15 {
+  background-image: url("images/15-devil-thoth.png");
+}
+.img-16 {
+  background-image: url("images/16-tower-thoth.png");
+}
+.img-17 {
+  background-image: url("images/17-star-thoth.png");
+}
+.img-18 {
+  background-image: url("images/18-moon-thoth.png");
+}
+.img-19 {
+  background-image: url("images/19-sun-thoth.png");
+}
+.img-20 {
+  background-image: url("images/20-aeon-thoth.png");
+}
+.img-21 {
+  background-image: url("images/21-universe-thoth.png");
 }
 
 
