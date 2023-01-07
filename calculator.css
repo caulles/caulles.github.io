@@ -24,7 +24,7 @@ input[type="button"] {
   border: none;
 }
 
-.answer {
+#answer {
   width: 175px;
   height: 257px;
   background: red;
