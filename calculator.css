@@ -1,27 +1,33 @@
-form {width:175px;margin:0,auto;text-align:center;}
+form {
+  width:175px;
+  padding:0;
+  margin:0 auto;
+  text-align:center;
+}
 
 label {
   display: none;
 }
 
-input[type="text"],
-input[type="button"] {
-  padding: 0.5em;
+input[type="text"] {
+  width:40px;
   font-size: 1em;
-  width: 2em;
+  padding:.65em 0;
   text-align: center;
 }
 
 input[name="year"] {
-  width: 3em;
+  width:70px;
 }
 
 input[type="button"] {
-  display: block;
-  width: 11.23em;
+  display:block;
+  width:175px;
+  font-size: 1em;
+  border:none;
+  text-align: center;
   background: black;
   color: white;
-  border: none;
 }
 
 #answer {
