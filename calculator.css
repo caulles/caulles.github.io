@@ -1,7 +1,9 @@
 form {width:175px;margin:0,auto;text-align:center;}
+
 label {
   display: none;
 }
+
 input[type="text"],
 input[type="button"] {
   padding: 0.5em;
@@ -9,9 +11,11 @@ input[type="button"] {
   width: 2em;
   text-align: center;
 }
+
 input[name="year"] {
   width: 3em;
 }
+
 input[type="button"] {
   display: block;
   width: 11.23em;
@@ -19,7 +23,8 @@ input[type="button"] {
   color: white;
   border: none;
 }
-h2 {
+
+.answer {
   width: 175px;
   height: 257px;
   background: red;
