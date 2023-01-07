@@ -39,6 +39,12 @@ function calculate() {
   return answer;
 }
 
+let displayAnswer = function() {
+  document.getElementById('answer').removeAttribute('class');
+  document.getElementById('answer').classList.add('img-'+calculate());
+  //document.getElementById('answer').innerHTML = calculate();
+}
+
 /*
 let formula1 = function(){
   return (~~dayNum + ~~monthNum + ~~yearNum);
