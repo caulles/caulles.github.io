@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>calculator</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="calculator.css">
   </head>
   <body>
     <main>
-          
+        <form name="birthday">
+            <label for="month">mm: </label>
+            <input type="text" name="month" placeholder="MM" />
+            <label for="day">dd: </label>
+            <input type="text" name="day" placeholder="DD" />
+            <label for="year">yyyy: </label>
+            <input type="text" name="year" placeholder="YYYY" />
+            <input type="button" value="calculate" onclick="document.getElementById('answer').innerHTML = calculate()" ; />
+            <h2 id="answer" />
+        </form>
     </main>
-	<script src="index.js"></script>
+	<script src="calculator.js"></script>
   </body>
 </html>
