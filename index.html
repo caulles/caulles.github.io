@@ -16,8 +16,8 @@
             <input type="text" name="day" placeholder="DD" />
             <label for="year">yyyy: </label>
             <input type="text" name="year" placeholder="YYYY" />
-            <input type="button" value="calculate" onclick="document.getElementById('answer').removeAttribute('class);document.getElementById('answer').classList.add('img-'+calculate())" ; />
-            <h2 id="answer" />
+            <input type="button" value="calculate" onclick="displayAnswer()" ; />
+            <div id="answer" />
         </form>
     </main>
 	<script src="calculator.js"></script>
