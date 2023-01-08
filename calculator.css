@@ -1,16 +1,22 @@
 body {
   height: 100vh;
-  margin-top:2rem;
+  margin-top: 2rem;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
-  filter: drop-shadow(0 0 10px rgb(12 12 43));
+  filter: drop-shadow(0 0 10px rgb(48 48 103));
+}
+
+h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 1.5em;
 }
 
 form {
-  width:175px;
-  padding:0;
-  margin:0 auto;
-  text-align:center;
+  width: 175px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
 label {
@@ -18,107 +24,111 @@ label {
 }
 
 input[type="text"] {
-  width:40px;
+  width: 40px;
   font-size: 1em;
-  padding:.65em 0;
+  padding: 0.65em 0;
   text-align: center;
-  background:none;
+  background: none;
   border-top: none;
   border-right: none;
   border-left: none;
   border-bottom: 1px solid white;
-  color:white;
+  color: white;
 }
 
 input[name="year"] {
-  width:70px;
+  width: 70px;
 }
 
 input[type="button"] {
-  display:block;
-  height:40px;
-  width:175px;
+  display: block;
+  height: 40px;
+  width: 175px;
   font-size: 1.2em;
-  border:none;
+  border: none;
   text-align: center;
-  margin:1em 0 1.2em;
+  margin: 1em 0 1.2em;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   color: white;
 }
 
-span {color:white;}
+span {
+  color: white;
+}
 
 #answer {
   width: 175px;
   height: 257px;
-  background: radial-gradient(ellipse at bottom, rgb(255 255 222) 0%, rgb(255 89 72) 100%);
+  background: radial-gradient(
+    ellipse at bottom,
+    rgb(255 255 222) 0%,
+    rgb(255 89 72) 100%
+  );
 }
 
 .img-0 {
-  background-image: url("images/0-fool-thoth.png");
+  background-image: url("./images/0-fool-thoth.png");
 }
 .img-1 {
-  background-image: url("images/1-magus-thoth.png");
+  background-image: url("./images/1-magus-thoth.png");
 }
 .img-2 {
-  background-image: url("images/2-priestess-thoth.png");
+  background-image: url("./images/2-priestess-thoth.png");
 }
 .img-3 {
-  background-image: url("images/3-empress-thoth.png");
+  background-image: url("./images/3-empress-thoth.png");
 }
 .img-4 {
-  background-image: url("images/4-emperor-thoth.png");
+  background-image: url("./images/4-emperor-thoth.png");
 }
 .img-5 {
-  background-image: url("images/5-hierophant-thoth.png");
+  background-image: url("./images/5-hierophant-thoth.png");
 }
 .img-6 {
-  background-image: url("images/6-lovers-thoth.png");
+  background-image: url("./images/6-lovers-thoth.png");
 }
 .img-7 {
-  background-image: url("images/7-chariot-thoth.png");
+  background-image: url("./images/7-chariot-thoth.png");
 }
 .img-8 {
-  background-image: url("images/8-adjustment-thoth.png");
+  background-image: url("./images/8-adjustment-thoth.png");
 }
 .img-9 {
-  background-image: url("images/9-hermit-thoth.png");
+  background-image: url("./images/9-hermit-thoth.png");
 }
 .img-10 {
-  background-image: url("images/10-fortune-thoth.png");
+  background-image: url("./images/10-fortune-thoth.png");
 }
 .img-11 {
-  background-image: url("images/11-lust-thoth.png");
+  background-image: url("./images/11-lust-thoth.png");
 }
 .img-12 {
-  background-image: url("images/12-hanged-man-thoth.png");
+  background-image: url("./images/12-hanged-man-thoth.png");
 }
 .img-13 {
-  background-image: url("images/13-death-thoth.png");
+  background-image: url("./images/13-death-thoth.png");
 }
 .img-14 {
-  background-image: url("images/14-art-thoth.png");
+  background-image: url("./images/14-art-thoth.png");
 }
 .img-15 {
-  background-image: url("images/15-devil-thoth.png");
+  background-image: url("./images/15-devil-thoth.png");
 }
 .img-16 {
-  background-image: url("images/16-tower-thoth.png");
+  background-image: url("./images/16-tower-thoth.png");
 }
 .img-17 {
-  background-image: url("images/17-star-thoth.png");
+  background-image: url("./images/17-star-thoth.png");
 }
 .img-18 {
-  background-image: url("images/18-moon-thoth.png");
+  background-image: url("./images/18-moon-thoth.png");
 }
 .img-19 {
-  background-image: url("images/19-sun-thoth.png");
+  background-image: url("./images/19-sun-thoth.png");
 }
 .img-20 {
-  background-image: url("images/20-aeon-thoth.png");
+  background-image: url("./images/20-aeon-thoth.png");
 }
 .img-21 {
-  background-image: url("images/21-universe-thoth.png");
+  background-image: url("./images/21-universe-thoth.png");
 }
-
-
