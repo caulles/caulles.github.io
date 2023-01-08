@@ -42,7 +42,7 @@ function calculate() {
 let displayAnswer = function () {
   document.getElementById("answer").removeAttribute("class");
   document.getElementById("answer").classList.add("img-" + calculate());
-  document.getElementById('answer').innerHTML = calculate();
+  //document.getElementById('answer').innerHTML = calculate();
 };
 
 /*
