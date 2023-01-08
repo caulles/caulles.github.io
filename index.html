@@ -9,19 +9,20 @@
   </head>
   <body>
     <main>
-        <form name="birthday">
-            <label for="month">mm: </label>
-            <input type="text" name="month" placeholder="MM" />
-            <span>/</span>
-            <label for="day">dd: </label>
-            <input type="text" name="day" placeholder="DD" />
-	    <span>/</span>
-            <label for="year">yyyy: </label>
-            <input type="text" name="year" placeholder="YYYY" />
-            <input type="button" value="calculate" onclick="displayAnswer()" ; />
-            <div id="answer" />
-        </form>
+      <form name="birthday">
+        <h1>Enter Your Birthday</h1>
+        <label for="month">mm: </label>
+        <input type="text" name="month" placeholder="MM" />
+        <span>/</span>
+        <label for="day">dd: </label>
+        <input type="text" name="day" placeholder="DD" />
+        <span>/</span>
+        <label for="year">yyyy: </label>
+        <input type="text" name="year" placeholder="YYYY" value="2023" />
+        <input type="button" value="Show Card" onclick="displayAnswer()" />
+        <div id="answer"></div>
+      </form>
     </main>
-	<script src="calculator.js"></script>
+    <script src="calculator.js"></script>
   </body>
 </html>
