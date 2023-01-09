@@ -25,7 +25,7 @@ let reduceNumber = function (num) {
 
 let formula = function (day, month, year, doublereduce) {
   var sum = reduceNumber(reduceNumber(day) + reduceNumber(month) + year);
-  if (doublereduce || sum > 22) {
+  if (doublereduce || sum > 21) {
     return reduceNumber(sum);
   }
   return sum;
