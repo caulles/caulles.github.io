@@ -20,7 +20,19 @@
         <label for="year">yyyy: </label>
         <input type="text" name="year" placeholder="YYYY" value="2023" />
         <input type="button" value="Show Card" onclick="displayAnswer()" />
-        <div id="answer"></div>
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div id="answer"></div>
+          </div>
+          <div class="card__face card__face--back">
+            <a href="#">
+              <div id="answerBack">
+                <p>The back of the card displays a short description and references.</p>
+                <p>Click the back of the card for a full description.</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </form>
     </main>
     <script src="calculator.js"></script>
