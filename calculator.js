@@ -45,6 +45,10 @@ let displayAnswer = function () {
   //document.getElementById('answer').innerHTML = calculate();
 };
 
+let flipCard = function () {
+  document.getElementById("card").classList.toggle("flipped");
+};
+
 /*
 let formula1 = function(){
   return (~~dayNum + ~~monthNum + ~~yearNum);
