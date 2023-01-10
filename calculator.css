@@ -12,7 +12,10 @@ h1 {
   font-size: 1.5em;
 }
 
-p {padding: 1em;margin:0;}
+p {
+  padding: 1em;
+  margin: 0;
+}
 
 a {
   text-decoration: none;
@@ -76,7 +79,7 @@ span {
   transform-style: preserve-3d;
 }
 
-.card:hover {
+.flipped {
   transform: rotateY(0.5turn);
 }
 
