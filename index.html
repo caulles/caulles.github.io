@@ -20,7 +20,7 @@
         <label for="year">yyyy: </label>
         <input type="text" name="year" placeholder="YYYY" value="2023" />
         <input type="button" value="Show Card" onclick="displayAnswer()" />
-        <div class="card">
+        <div class="card" id="card" onclick="flipCard()">
           <div class="card__face card__face--front">
             <div id="answer"></div>
           </div>
