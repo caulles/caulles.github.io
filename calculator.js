@@ -1,3 +1,7 @@
+let date = new Date();
+let thisYear = date.getFullYear('YYYY');
+document.forms.birthday.year.value = thisYear;
+
 let reduceNumber = function (num) {
   var ones,
     tens,
