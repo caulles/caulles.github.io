@@ -120,6 +120,13 @@ h2 {
   color: white;
 }
 
+.answer-content {
+  display: none;
+}
+.answer-content.visible {
+  display: block;
+}
+
 #answer {
   width: 175px;
   height: 257px;
@@ -196,3 +203,4 @@ h2 {
 #answer.img-21 {
   background-image: url("./images/21-universe-thoth.png");
 }
+
