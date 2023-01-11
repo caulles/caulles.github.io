@@ -40,8 +40,14 @@ function calculate() {
 }
 
 let displayAnswer = function () {
+  let cards = document.getElementsByClassName("answer-content");
+  let cardNumber = calculate();
+  for (i = 0; i < cards.length; i++) {
+    cards[i].classList.remove("visible");
+  }
   document.getElementById("answer").removeAttribute("class");
-  document.getElementById("answer").classList.add("img-" + calculate());
+  document.getElementById("answer").classList.add("img-" + cardNumber);
+  document.getElementById("card-" + cardNumber).classList.add("visible");
   //document.getElementById('answer').innerHTML = calculate();
 };
 
